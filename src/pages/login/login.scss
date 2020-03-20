@@ -1,0 +1,70 @@
+.login {
+  min-height: 101vh;
+  background-image: url("../../common/images/bgrd1.jpg");
+  background-size: cover;
+
+  &-form {
+    height: 250px;
+    background-color: white;
+    color: #03396c;
+    text-align: center;
+    border: 5px solid #03396c;
+    border-radius: 15px;
+    padding: 10px;
+    padding-top: 40px;
+    margin-top: 44%;
+  }
+}
+
+.bcg {
+  background-color: #36454f;
+}
+.header {
+  background-color: #36454f;
+  color: white;
+}
+
+.height-header {
+  min-height: 6vh;
+}
+
+.height-menu {
+  min-height: 94vh;
+}
+// .MuiPaper-root .candidateSearch-paper .MuiPaper-elevation1 .MuiPaper-rounded {
+//   padding: 2px 4px;
+//   display: "flex";
+//   // alignItems: "center";
+//   width: 400;
+// }
+// &-input{
+//   marginLeft: 5px,
+//   flex: 1
+// }
+.candidateSearch-paper-iconButton {
+  padding: 10;
+}
+// &-divider {
+//   height: 28,
+//   margin: 4
+// }
+
+// const useStyles = makeStyles(theme => ({
+//   root: {
+//     padding: "2px 4px",
+//     display: "flex",
+//     alignItems: "center",
+//     width: 400
+//   },
+//   input: {
+//     marginLeft: theme.spacing(1),
+//     flex: 1
+//   },
+//   iconButton: {
+//     padding: 10
+//   },
+//   divider: {
+//     height: 28,
+//     margin: 4
+//   }
+// }));
