@@ -1,6 +1,9 @@
 import React, { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 
+import Box from "@material-ui/core/Box";
+import Typography from "@material-ui/core/Typography";
+
 import { uploadCandidatesCV } from "../../api/api.js";
 
 export default function MyDropzone() {
@@ -22,16 +25,16 @@ export default function MyDropzone() {
   return (
     <div {...getRootProps()}>
       <input {...getInputProps()} />
-      <div
-        style={{
-          border: "1px dashed",
-          margin: "5rem",
-          padding: "10rem",
-          minHeight: "20rem"
-        }}
+      <Box
+        textAlign="center"
+        color="#9683aa"
+        borderRadius="15px"
+        p="9rem 0rem 9rem 0rem"
+        minHeight="20rem"
+        border="2px dashed #9683aa"
       >
-        <p>Drag 'n' drop some files here, or click to select files</p>
-      </div>
+        <Typography>Drop files fire or click to upload</Typography>
+      </Box>
     </div>
   );
 }

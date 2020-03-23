@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+import "./index.css";
 import Router from "./Router";
 
 // TODO: Switch to https://github.com/palmerhq/the-platform#stylesheet when it will be stable

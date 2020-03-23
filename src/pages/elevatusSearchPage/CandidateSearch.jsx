@@ -41,7 +41,15 @@ export default class CustomizedInputSearch extends Component {
     const { searchType, fieldValue } = this.props;
 
     return (
-      <Paper component="form" style={{ padding: "2px 4px", display: "flex" }}>
+      <Paper
+        component="form"
+        style={{
+          padding: "2px 4px",
+          display: "flex",
+          borderRadius: "25px",
+          backgroundColor: "#F0F0F0"
+        }}
+      >
         <InputBase
           name="searchInput"
           className="candidateSearch-input"
@@ -49,12 +57,14 @@ export default class CustomizedInputSearch extends Component {
           inputProps={{ "aria-label": { searchType } }}
           onChange={this.handleInputChange}
           value={fieldValue}
+          style={{ marginLeft: "2px", flex: 1 }}
         />
         <IconButton
           type="submit"
           className="candidateSearch-iconButton"
           aria-label="search"
           onClick={this.handleClickSearch}
+          style={{ padding: 5 }}
         >
           <SearchIcon />
         </IconButton>

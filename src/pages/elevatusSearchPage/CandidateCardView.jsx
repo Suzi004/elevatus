@@ -30,7 +30,7 @@ export default class CandidateCardView extends PureComponent {
           direction="row"
           justify="space-around"
           alignItems="center"
-          style={{ margin: "0.8em 0em 0.5em" }}
+          style={{ margin: "0.8em 0em 0.8em", padding: "0.8em 0em 0.8em" }}
         >
           <Grid
             item
